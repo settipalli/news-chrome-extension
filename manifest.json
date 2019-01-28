@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome News",
+  "description": "Pulls in news stories from various online websites and presents them in your default tab.",
+  "version": "0.9",
+  "author": "Santhosh Settipalli",
+  "browser_action": {
+    "default_icon": "src/img/news-icon-1024.png",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/newstab.html"
+  },
+  "permissions": ["activeTab", "storage"]
+}
