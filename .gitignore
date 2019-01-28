@@ -1,0 +1,15 @@
+js/build.js
+/lib
+
+CHANGELOG-Generated.md
+src-cov/
+lcov/
+site/
+cov.*
+.vagrant
+*.log
+
+node_modules
+.idea/
+
+.DS_Store
